@@ -2,7 +2,7 @@
 ## How to install
 1 - create a folder called "test" with a subfolder called src
 ```
-	mkdir -p test/src
+	mkdir -p ~/test/src
 	cd ~/test/src
 ```
 2 - Download the "a.rosinstall" file into "test/src" from https://github.com/JBrad4d/matrice100
