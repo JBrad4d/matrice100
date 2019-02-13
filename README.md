@@ -5,7 +5,7 @@
 	mkdir -p test/src
 	cd ~/test/src
 ```
-2 - Download the "a.rosinstall" file into "test/src" from https://gitlab.com/BrianMerrell/finalproject/tree/master/matrice100
+2 - Download the "a.rosinstall" file into "test/src" from https://github.com/JBrad4d/matrice100
 
 3 - Use wstool (in src folder) to clone the repo
 ```
