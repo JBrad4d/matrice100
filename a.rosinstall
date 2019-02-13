@@ -1,0 +1,4 @@
+#my repos {where you want repo installed, uri: address of repo, version}
+-git:{local-name:matrix,
+     uri: 'https://github.com/JBrad4d/matrice100.git',
+     version:master}
