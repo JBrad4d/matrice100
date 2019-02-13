@@ -5,7 +5,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <geometry>
-       <mesh filename="package://matrice100/met.STL" scale="4 4 4"/>
+       <mesh filename="package://matrice100/mesh/met.STL" scale="4 4 4"/>
 <!--<cylinder radius="0.2" length="0.4"/>-->
       </geometry>
     </visual>
@@ -21,7 +21,7 @@
     <visual>
 	<origin xyz="0 0 0" rpy="1.57 0 0"/>
       <geometry>
-       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+       <mesh filename="package://matrice100/mesh/leg1.STL" scale="4 4 4"/>
       </geometry>
     </visual>
   </link>
@@ -36,7 +36,7 @@
     <visual>
 	<origin xyz="0 0 0" rpy="1.57 0 1.57"/>
       <geometry>
-       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+       <mesh filename="package://matrice100/mesh/leg1.STL" scale="4 4 4"/>
       </geometry>
     </visual>
   </link>
@@ -52,7 +52,7 @@
     <visual>
 	<origin xyz="0 0 0" rpy="1.57 0 3.14 "/>
       <geometry>
-       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+       <mesh filename="package://matrice100/mesh/leg1.STL" scale="4 4 4"/>
       </geometry>
     </visual>
   </link>
@@ -67,7 +67,7 @@
     <visual>
 	<origin xyz="0 0 0" rpy="1.57 0 -1.57 "/>
       <geometry>
-       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+       <mesh filename="package://matrice100/mesh/leg1.STL" scale="4 4 4"/>
       </geometry>
     </visual>
   </link>
