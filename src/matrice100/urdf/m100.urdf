@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<robot name="m100">
+  <link name = "base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <geometry>
+       <mesh filename="package://matrice100/met.STL" scale="4 4 4"/>
+<!--<cylinder radius="0.2" length="0.4"/>-->
+      </geometry>
+    </visual>
+  </link>
+
+<joint name="leg1" type="fixed">
+<parent link="base_link"/>
+<child link="leg1"/>
+<origin xyz="0.43 -0.63 -0.39"/>
+</joint>
+
+  <link name = "leg1">
+    <visual>
+	<origin xyz="0 0 0" rpy="1.57 0 0"/>
+      <geometry>
+       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+      </geometry>
+    </visual>
+  </link>
+
+<joint name="leg2" type="fixed">
+<parent link="base_link"/>
+<child link="leg2"/>
+<origin xyz="0.43 -0.63 -0.39"/>
+</joint>
+
+  <link name = "leg2">
+    <visual>
+	<origin xyz="0 0 0" rpy="1.57 0 1.57"/>
+      <geometry>
+       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+      </geometry>
+    </visual>
+  </link>
+
+
+<joint name="leg3" type="fixed">
+<parent link="base_link"/>
+<child link="leg3"/>
+<origin xyz="0.43 -0.63 -0.39"/>
+</joint>
+
+  <link name = "leg3">
+    <visual>
+	<origin xyz="0 0 0" rpy="1.57 0 3.14 "/>
+      <geometry>
+       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+      </geometry>
+    </visual>
+  </link>
+
+<joint name="leg4" type="fixed">
+<parent link="base_link"/>
+<child link="leg4"/>
+<origin xyz="0.43 -0.63 -0.39"/>
+</joint>
+
+  <link name = "leg4">
+    <visual>
+	<origin xyz="0 0 0" rpy="1.57 0 -1.57 "/>
+      <geometry>
+       <mesh filename="package://matrice100/leg1.STL" scale="4 4 4"/>
+      </geometry>
+    </visual>
+  </link>
+
+</robot>

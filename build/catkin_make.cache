@@ -1,0 +1,2 @@
+matrice100
+-DCATKIN_DEVEL_PREFIX=/home/kcarl/git/matrice100/devel -DCMAKE_INSTALL_PREFIX=/home/kcarl/git/matrice100/install -G Unix Makefiles

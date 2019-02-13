@@ -1,0 +1,8 @@
+prefix=/home/kcarl/git/matrice100/devel
+
+Name: matrice100
+Description: Description of matrice100
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kcarl/git/matrice100/devel/lib 
+Requires: 

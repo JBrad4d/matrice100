@@ -1,0 +1,10 @@
+/home/kcarl/git/matrice100/install/_setup_util.py
+/home/kcarl/git/matrice100/install/env.sh
+/home/kcarl/git/matrice100/install/setup.bash
+/home/kcarl/git/matrice100/install/setup.sh
+/home/kcarl/git/matrice100/install/setup.zsh
+/home/kcarl/git/matrice100/install/.rosinstall
+/home/kcarl/git/matrice100/install/lib/pkgconfig/matrice100.pc
+/home/kcarl/git/matrice100/install/share/matrice100/cmake/matrice100Config.cmake
+/home/kcarl/git/matrice100/install/share/matrice100/cmake/matrice100Config-version.cmake
+/home/kcarl/git/matrice100/install/share/matrice100/package.xml
