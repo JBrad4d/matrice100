@@ -1,0 +1,21 @@
+1 - create a folder called "test" with a subfolder called src
+	mkdir -p test/src
+	cd ~/test/src
+2 - Download the "a.rosinstall" file into "test/src" from https://github.com/JBrad4d/matrice100
+
+3 - Use wstool (in src folder) to clone the repo
+	wstool init
+	wstool merge a.rosinstall
+	wstool up
+
+4 - Go up a level and build the workspace
+	cd ~/test
+	catkin_make
+
+5 - Source the workspace
+	source devel/setup.bash
+
+6 - Run the simulation
+	roslaunch matrice100 display.launch
+
+7 - Move the rotors with the sliders in the joint publisher!
